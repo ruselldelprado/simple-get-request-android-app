@@ -1,4 +1,4 @@
-package dev.rusell.`rick-and-morty`.model.api
+package dev.rusell.simple_get_request.model.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

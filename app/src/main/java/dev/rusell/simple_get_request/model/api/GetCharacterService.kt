@@ -1,6 +1,6 @@
-package dev.rusell.`rick-and-morty`.model.api
+package dev.rusell.simple_get_request.model.api
 
-import dev.rusell.`rick-and-morty`.model.Character
+import dev.rusell.simple_get_request.model.Character
 import retrofit2.http.GET
 
 interface GetCharacterService {

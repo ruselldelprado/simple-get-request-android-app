@@ -1,4 +1,4 @@
-package dev.rusell.`rick-and-morty`.ui.theme
+package dev.rusell.simple_get_request.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

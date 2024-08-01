@@ -1,4 +1,4 @@
-package dev.rusell.`rick-and-morty`
+package dev.rusell.simple_get_request
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

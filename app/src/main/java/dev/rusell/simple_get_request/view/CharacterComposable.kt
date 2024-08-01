@@ -1,4 +1,4 @@
-package dev.rusell.`rick-and-morty`.view
+package dev.rusell.simple_get_request.view
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -25,8 +25,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import dev.rusell.`rick-and-morty`.model.Result
-import dev.rusell.`rick-and-morty`.viewModel.CharacterViewModel
+import dev.rusell.simple_get_request.model.Result
+import dev.rusell.simple_get_request.viewModel.CharacterViewModel
 
 
 @Composable

@@ -1,4 +1,4 @@
-package dev.rusell.`rick-and-morty`
+package dev.rusell.simple_get_request
 
 import org.junit.Test
 
