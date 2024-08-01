@@ -15,4 +15,5 @@ The app aims to showcase how MVVM design pattern on Jetpack Compose android app 
 
 ## Getting Started
 ```
+git clone https://github.com/ruselldelprado/simple-get-request-android-app.git
 ```
