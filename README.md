@@ -1,4 +1,4 @@
-# Rick and Morty Android App
+# Rick and Morty Android App<br>
 
 
 <img src="https://github.com/user-attachments/assets/85c7efdd-5e13-49bc-9528-1af161c345cc" alt="_blank" width="200px" height="400px"> 
