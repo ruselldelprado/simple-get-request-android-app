@@ -6,6 +6,7 @@
 
 A simple Kotlin android app that uses MVVM design pattern <br>
 The app aims to showcase how MVVM design pattern on Jetpack Compose android app <br>
+[APK]
 
 
 
@@ -14,6 +15,7 @@ The app aims to showcase how MVVM design pattern on Jetpack Compose android app 
 - Emulator in Android Studio
 
 ## Getting Started
+Download App
 ```
 git clone https://github.com/ruselldelprado/simple-get-request-android-app.git
 ```
