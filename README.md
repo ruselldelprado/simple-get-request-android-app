@@ -1,10 +1,6 @@
 # Rick and Morty Android App<br><br>
 
-
-https://github.com/user-attachments/assets/b6c3ed35-788a-413d-ba9e-b2b57b96e0b4
-
-<!--<img src="https://github.com/user-attachments/assets/85c7efdd-5e13-49bc-9528-1af161c345cc" alt="_blank" width="200px" height="400px"> 
-<img src="https://github.com/user-attachments/assets/9317fa86-4b59-45c7-8135-46354dd80747" alt="_blank" width="200px" height="400px"> <br> -->
+<img src="https://github.com/user-attachments/assets/8ff29518-780d-4b85-a322-bbb0e1dff500" width="200px" height="400px">
 
 A simple Kotlin android app that uses MVVM design pattern <br>
 The app aims to showcase how MVVM design pattern on Jetpack Compose android app <br>
