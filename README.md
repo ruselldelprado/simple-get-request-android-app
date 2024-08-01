@@ -17,3 +17,8 @@ Download App
 ```
 git clone https://github.com/ruselldelprado/simple-get-request-android-app.git
 ```
+Unzip the files <br>
+Go inside the folder<br>
+Go to app > release<br>
+Copy apk to your android app<br>
+Install the apk
