@@ -32,7 +32,7 @@ import dev.rusell.simple_get_request.viewModel.CharacterViewModel
 @Composable
 fun CharacterComposable(viewModel: CharacterViewModel){
    val characters by viewModel.characters.observeAsState()
-   
+
    LaunchedEffect(Unit) {
       viewModel.fetchCharacter()
    }
@@ -51,28 +51,10 @@ fun CharacterComposable(viewModel: CharacterViewModel){
          Text(text = "Rick And Morty", fontSize = 24.sp)
          Spacer(modifier = Modifier.padding(10.dp))
          var chars = characters?.results as List<Result>
-         chars.let { 
+         chars.let {
             LazyColumn{
                items(it) {
-                  Row (modifier = Modifier
-                     .border(1.dp, Color.Black)
-                     .padding(10.dp)
-                     .fillMaxWidth(),
-                     verticalAlignment = CenterVertically,
-                  ){
-                     AsyncImage(
-                        model = it.image,
-                        contentDescription = "${it.name} image",
-                        modifier = Modifier.size(width = 100.dp, height = 100.dp)
-                     )
-                     Spacer(modifier = Modifier.padding(40.dp))
-                     Column {
-                        Text(text = it.name)
-                        Text(text = it.status)
-                        Text(text = it.gender)
-
-                     }
-                  }
+                  CharacterCardComposable(it = it)
                   Spacer(modifier = Modifier.padding(6.dp))
                }
             }
